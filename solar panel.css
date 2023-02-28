@@ -1,0 +1,43 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: Gill Sans MT;
+}
+
+nav a .kedc-logo {
+    width: 150px;
+
+} 
+
+.solar {
+    background-image: url(img/Green.jpg);
+    background-position: center;
+    background-size: cover;
+    padding: 50px;
+    text-align: center;
+}
+
+.text-warning {
+    font-family: Arial Black;
+}
+
+footer {
+    text-align: center;
+    background-color: blanchedalmond;
+    padding-top: 1.5%;
+    padding-bottom: 0.5%;
+}
+
+h5 {
+    font-weight: bold;
+    font-family: Cooper Black;
+}
+
+img:hover {  
+    transform: scale(0.9); 
+}
+
+a:hover {
+    transform: scale(1.2);
+}

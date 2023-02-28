@@ -1,0 +1,61 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: Gill Sans MT;
+}
+
+nav a .kedc-logo {
+    width: 150px;
+
+} 
+
+.solar {
+    background-image: url(about/header.jpg);
+    background-position: center;
+    background-size: cover;
+    padding: 50px;
+    text-align: center;
+}
+
+.text-warning {
+    font-family: Arial Black;
+}
+
+footer {
+    text-align: center;
+    background-color: blanchedalmond;
+    padding-top: 1.5%;
+    padding-bottom: 0.5%;
+}
+
+a:hover {
+    transform: scale(1.2);
+}
+
+
+section {
+    background-color: blanchedalmond;
+}
+
+.google-maps {
+    position: relative;
+    padding-bottom: 75%;
+}
+
+.google-maps iframe {
+    position: absolute;
+    width: 100% !important;
+    height: 100% !important;
+}
+
+.google {
+    position: relative;
+    padding-bottom: 75%;
+}
+
+.google iframe {
+    position: absolute;
+    width: 100% !important;
+    height: 100% !important;
+}
