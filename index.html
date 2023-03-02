@@ -326,29 +326,50 @@
           </div>
           <div class="col-md-6">
             <form>
-              <div>
-                <label><b>Name:</b></label>
-                <input class="form-control" id="name" placeholder="Enter Name">
+              <div class="form-group mb-2">
+                <div class="form-group mb-2">
+                  <label><b>NAME:</b></label>
+                    <input type="text" class="form-control" placeholder="Enter Name" required>
+                  <div class="invalid-tooltip">
+                    Please Provide This Field.
+                  </div>
+                </div>
               </div>
-              <div>
-                <label><b>Email:</b></label>
-                <input class="form-control" id="email" placeholder="Enter Email">
+              <div class="form-group mb-2">
+                <div class="form-group mb-2">
+                  <label><b>EMAIL:</b></label>
+                    <input type="text" class="form-control" placeholder="Enter Email" required>
+                  <div class="invalid-tooltip">
+                    Please Provide This Field.
+                  </div>
+                </div>
               </div>
-              <div class="form-group">
-                <label><b>Phone Number:</b></label>
-                <input class="form-control" id="phone" placeholder="Enter Phone Number">
+              <div class="form-group mb-2">
+                <label><b>PHONE NUMBER:</b></label>
+                  <input type="text" class="form-control" placeholder="Enter Phone Number" required>
+                <div class="invalid-tooltip">
+                  Please Provide This Field.
+                </div>
               </div>
-              <div class="form-group">
-                <label><b>Address:</b></label>
-                <input class="form-control" id="phone" placeholder="Address(Street,City,Zip Code)">
+              <div class="form-group mb-2">
+                <label><b>ADDRESS:</b></label>
+                  <input type="text" class="form-control" placeholder="Street/City/Zip Code" required>
+                <div class="invalid-tooltip">
+                  Please Provide This Field.
+                </div>
               </div>
-              <div class="form-group">
-                <label><b>Monthly Electric Bill:</b></label>
-                <input class="form-control" id="phone" placeholder="₱">
+              <div class="form-group mb-2">
+                <div class="form-group mb-2">
+                  <label><b>MONTHLY ELECTRIC BILL:</b></label>
+                    <input type="text" class="form-control" placeholder="Monthly Electric Bill ₱" required>
+                  <div class="invalid-tooltip">
+                    Please Provide This Field.
+                  </div>
+                </div>
               </div>
-              <div class="form-group">
-                <label><b>Message:</b></label>
-                <textarea class="form-control" id="textarea" rows="5" placeholder="Insert Message"></textarea>
+              <div class="form-group mb-2">
+                <label><b>MESSAGE:</b></label>
+                <textarea class="form-control" rows="5" placeholder="Insert Message"></textarea>
               </div>
               <div class="row py-3">
                   <button type="btn" class="btn btn-warning"><b>Submit</b></button>
