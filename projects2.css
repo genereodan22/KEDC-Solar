@@ -1,0 +1,44 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: Gill Sans MT;
+}
+
+nav a .kedc-logo {
+    width: 150px;
+
+} 
+
+.solar {
+    background-image: url(Commercial/background.jpg);
+    background-position: center;
+    background-size: cover;
+    padding: 50px;
+    text-align: center;
+}
+
+.text-warning {
+    font-family: Arial Black;
+}
+
+footer {
+    text-align: center;
+    background-color: blanchedalmond;
+    padding-top: 1.5%;
+    padding-bottom: 0.5%;
+}
+
+a:hover {
+    transform: scale(1.2);
+}
+
+.card {
+    box-shadow: 0 4px 8px 0 rgba(0,0,0,0.2);
+    transition: 0.3s;
+    width: 100%;
+}
+  
+.card:hover {
+    box-shadow: 0 30px 50px 0 blanchedalmond;
+}
